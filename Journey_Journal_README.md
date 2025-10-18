@@ -4,7 +4,7 @@
 
 ---
 
-## 🧭 Project Overview
+## Project Overview
 The app fetches country data from the **REST Countries API**, displays them in a searchable list, and allows users to:
 - View detailed country info (flag, capital, region)
 - Add a photo and write a journal entry for each country
@@ -13,7 +13,7 @@ The app fetches country data from the **REST Countries API**, displays them in a
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
@@ -29,7 +29,7 @@ The app fetches country data from the **REST Countries API**, displays them in a
 
 ---
 
-## 🪄 Core Features
+##  Core Features
 
 ✅ **Searchable Country List**  
 Type in the search bar to instantly filter through countries.
@@ -54,7 +54,7 @@ Layout adjusts to notches and navigation bars on modern devices.
 
 ---
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 1. **Clone this repository:**
    ```bash
@@ -78,20 +78,19 @@ Layout adjusts to notches and navigation bars on modern devices.
 
 ---
 
-## 🧠 React Hooks Used (and Why)
+## Screenshots
 
-| Hook | Purpose |
-|------|----------|
-| **useState** | To manage component-level state (e.g., notes, images, loading, search input) |
-| **useEffect** | To fetch countries and load saved journal entries when components mount |
-| **useRef** | To reference the TextInput and dismiss keyboard when saving notes |
-| **useLayoutEffect** | To set header title and styling *before* render (avoiding flicker) |
-| **useNavigation** | To navigate between screens dynamically |
-| **useSafeAreaInsets** | To calculate padding for toast messages and safe content |
 
+### 🏠 Home Screen
+![Home Screen](./assets/home.png)
+
+### 🌍 Details Screen
+![Details Screen](./assets/journal.png)
+### 🌍 Search Screen
+![Search Screen](./assets/search.png)
 ---
 
-## 🧩 Common Errors and Fixes
+##  Common Errors and Fixes
 
 | Issue | Cause | Solution / Learning |
 |-------|--------|---------------------|
@@ -105,7 +104,7 @@ Layout adjusts to notches and navigation bars on modern devices.
 
 ---
 
-## 💡 Learning Outcomes
+##  Learning Outcomes
 
 1. **React Native Hooks Mastery** —  
    Gained a solid understanding of `useEffect`, `useRef`, `useLayoutEffect`, and how they differ.
@@ -130,7 +129,7 @@ Layout adjusts to notches and navigation bars on modern devices.
 
 ---
 
-## 🖼️ App Flow Overview
+##  App Flow Overview
 
 **Home Screen:**  
 Displays searchable country list with flag thumbnails.  
@@ -143,7 +142,7 @@ User adds photo + note → Saved locally → Editable anytime.
 
 ---
 
-## 🌟 Future Improvements
+## Future Improvements
 
 - 🌐 Sync journals with cloud backend (MongoDB)
 - 📅 Add “Visited Date” picker
