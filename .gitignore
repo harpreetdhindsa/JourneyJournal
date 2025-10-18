@@ -1,0 +1,28 @@
+# ───────── DEPENDENCIES ─────────
+node_modules/
+
+# ───────── EXPO / BUILD OUTPUTS ─────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ───────── NATIVE (AUTO-GENERATED, IGNORE EVEN IF UNUSED) ─────────
+ios/
+android/
+
+# ───────── TYPESCRIPT / TEMP FILES ─────────
+*.tsbuildinfo
+*.orig.*
+
+# ───────── DEBUG / LOG FILES ─────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ───────── METRO ─────────
+.metro-health-check*
+
+# ───────── OS / MISC FILES ─────────
+.DS_Store
+*.pem
